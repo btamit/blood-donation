@@ -6,16 +6,16 @@ body{
     margin: 0;
 }
 
+
+/* Header part starts  */
 .banner{
     background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/donation4.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
-
 .banner-part h1{
     font-size: 50px;
 }
-
 .banner-part {
     color: white;
     padding: 200px 0px;
@@ -24,7 +24,6 @@ body{
     margin-left: 250px;
     text-align: center;
 }
-
 .link{
     text-decoration: none;
     background-color: #FF5959;
@@ -32,6 +31,10 @@ body{
     color: white;
     border-radius: 3px;
 }
+/* Header part ends  */
+
+
+/* Amount part starts */
 .amount-heading{
     text-align: center;
     width: 58%;
@@ -45,14 +48,12 @@ body{
     margin-top: 70px;
     margin-bottom: 0px;
 }
-
 .amount-number{
     display:flex;
     text-align: center;
     margin: auto;
     width: 50%;
     padding: 10px;
-    
 }
 .amount-one {
     background: #FAFAFA;
@@ -62,7 +63,6 @@ body{
     margin: 0 15px;
     color: #707070;
 }
-
 .amount-two {
     color: red;
     background: #FFEEEE;
@@ -91,11 +91,14 @@ body{
     text-align: center;
     margin: 0 250px 120px 250px;
 }
+/* Amount part ends */
 
+
+
+/* Donation part starts  */
 .donate-plan{
     text-align: center;
 }
-
 .donation-part{
     display: flex;
     margin-bottom: 100px;
@@ -124,6 +127,39 @@ body{
     border-radius: 5px;
     font-size: 12px;
 }
+/* Donation part ends  */
+
+
+/* Flood effected People starts  */
+.first-part{
+    display: flex;
+    margin-bottom: 200px;
+}
+.food img{
+    width: 100%;
+}
+.food{
+    box-shadow: 10px 10px 40px #888888;
+    border: 5px solid white;
+    border-radius: 20px;
+    margin-right: 60px;
+    text-align: center;
+}
+.food-part-heading{
+    text-align: center;
+    padding-top: 40px;
+}
+.food-portion{
+    margin-left: 80px;
+    padding: 10px;
+}
+.menu-part{
+    text-align: left;
+}
+/* Flood effected People ends  */
+
+
+/* Contact Part starts */
 .contact-part{
     margin-bottom: 100px;
 }
@@ -133,25 +169,19 @@ body{
     display: flex;
     margin: auto;
     width: 50%;
-
 }
 .contact input{
     margin-left: 150px;
 }
+/* Contact Part ends */
 
 
-
-
-
-
-
-
+/* Footer section starts */
 footer {
     text-align: center;
     background-color: black;
     color: #FF5959;
     padding: 20px;
-   
 }
 footer h2{
     font-family: 'Lobster', cursive;
@@ -159,3 +189,9 @@ footer h2{
 footer p{
     color: #707070;
 }
+/* Footer section ends */
+
+
+
+
+
