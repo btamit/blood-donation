@@ -88,6 +88,37 @@ body{
 }
 .horizontal{
     text-align: center;
-    margin: 0 250px;
+    margin: 0 250px 120px 250px;
 }
 
+.donate-plan{
+    text-align: center;
+}
+
+.donation-part{
+    display: flex;
+}
+#donation-one{
+    width: 25%;
+    margin-left: 4%;
+    background:#EDF5F6;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+#donation-two{
+    width: 25%;
+    margin-left: 5%;
+    background:#FFEEEE;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+#donation-three{
+    width: 25%;
+    margin-left: 5%;
+    background:#FFF4D6;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 12px;
+}
