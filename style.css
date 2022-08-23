@@ -38,6 +38,7 @@ body{
     margin-left: 120px;
     margin-left: 250px;
     text-align: center;
+    margin-bottom: 50px;
 }
 .amount-heading h2{
     font-size: 40px;
@@ -97,6 +98,7 @@ body{
 
 .donation-part{
     display: flex;
+    margin-bottom: 100px;
 }
 #donation-one{
     width: 25%;
@@ -122,10 +124,20 @@ body{
     border-radius: 5px;
     font-size: 12px;
 }
+.contact-part{
+    margin-bottom: 100px;
+}
+.contact{
+    background: #FFF4D6;
+    padding: 100px 100px;
+    display: flex;
+    margin: auto;
+    width: 50%;
 
-
-
-
+}
+.contact input{
+    margin-left: 150px;
+}
 
 
 
@@ -141,5 +153,5 @@ footer {
     padding: 20px;
 }
 footer p{
-    color: white;
+    color: #707070;
 }
