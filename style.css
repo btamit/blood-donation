@@ -130,7 +130,7 @@ body{
 /* Donation part ends  */
 
 
-/* Flood effected People starts  */
+/* Relief-and-food-section starts  */
 .first-part{
     display: flex;
     margin-bottom: 200px;
@@ -156,7 +156,7 @@ body{
 .menu-part{
     text-align: left;
 }
-/* Flood effected People ends  */
+/* Relief-and-food-section Ends  */
 
 
 /* Contact Part starts */
@@ -173,7 +173,7 @@ body{
 .contact input{
     margin-left: 150px;
 }
-/* Contact Part ends */
+/* Contact Part Ends */
 
 
 /* Footer section starts */
