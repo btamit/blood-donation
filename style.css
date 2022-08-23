@@ -149,8 +149,12 @@ body{
 footer {
     text-align: center;
     background-color: black;
-    color: red;
+    color: #FF5959;
     padding: 20px;
+   
+}
+footer h2{
+    font-family: 'Lobster', cursive;
 }
 footer p{
     color: #707070;
