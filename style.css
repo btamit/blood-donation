@@ -1,5 +1,7 @@
 body{
+    font-family: 'Inter', sans-serif;
     font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
@@ -23,13 +25,69 @@ body{
     text-align: center;
 }
 
-.banner-part a{
+.link{
     text-decoration: none;
-    background-image: linear-gradient(orange,tomato);
-    padding: 10px 20px;
+    background-color: #FF5959;
+    padding: 8px 14px;
     color: white;
-    font-weight: bold;
     border-radius: 3px;
 }
+.amount-heading{
+    text-align: center;
+    width: 58%;
+    margin-left: 120px;
+    margin-left: 250px;
+    text-align: center;
+}
+.amount-heading h2{
+    font-size: 40px;
+    margin-top: 70px;
+    margin-bottom: 0px;
+}
 
-   
+.amount-number{
+    display:flex;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    
+}
+.amount-one {
+    background: #FAFAFA;
+    border: 1px solid #FAFAFA;
+    padding: 10px 18px;
+    border-radius: 8px;
+    margin: 0 15px;
+    color: #707070;
+}
+
+.amount-two {
+    color: red;
+    background: #FFEEEE;
+    border: 1px solid red;
+    padding: 10px 18px;
+    border-radius: 8px;
+    margin: 0 15px;
+}
+
+.amount-end{
+    text-align: center;
+    color: #707070;
+    font-size: 12px;
+    margin-top: 50px
+}
+.button a{
+    text-decoration: none;
+    background-color: #FF5959;
+    padding: 8px 14px;
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+
+}
+.horizontal{
+    text-align: center;
+    margin: 0 250px;
+}
+
