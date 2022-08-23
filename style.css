@@ -122,3 +122,24 @@ body{
     border-radius: 5px;
     font-size: 12px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: red;
+    padding: 20px;
+}
+footer p{
+    color: white;
+}
